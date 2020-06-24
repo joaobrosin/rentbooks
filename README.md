@@ -3,8 +3,8 @@
     <h1> RentBooks </h1>
 </div>
 
-<img src="https://ik.imagekit.io/eskqbzkmgf/bg-rentbooks_rX1R0HcHN.svg">
-<p align="center">Para acessar a demonstração <a href="#">clique aqui</a>.</p>
+<img src="https://ik.imagekit.io/eskqbzkmgf/layout_yZz2a3F1r.png">
+
 
 
 # Indice
