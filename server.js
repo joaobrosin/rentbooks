@@ -23,3 +23,7 @@ server.get("/content", function(req, res){
 server.listen(5000, function(){
     console.log("server is running")
 })
+
+server.use(function(req, res) {
+    res.status(404).render("not-found");
+});
