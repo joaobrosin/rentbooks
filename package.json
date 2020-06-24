@@ -1,0 +1,28 @@
+{
+  "name": "rentbooks",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r     <img width=\"100px\" src=\"https://image.flaticon.com/icons/svg/945/945170.svg\">\r     <h1> RentBooks </h1>\r </div>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaobrosin/rentbooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaobrosin/rentbooks/issues"
+  },
+  "homepage": "https://github.com/joaobrosin/rentbooks#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
