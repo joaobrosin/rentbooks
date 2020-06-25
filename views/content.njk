@@ -6,32 +6,17 @@
 
 {%block content%}
 <section class="cards">
-    <div class="card" id="starter">
-        <img src="https://image.flaticon.com/icons/svg/3048/3048425.svg" alt="logo do curso Starter">
-        <div class="card-description">
-            <h1>Leia</h1>
-            <p>Alugue qualquer livro sem sair de casa.</p>
-        </div>
-        
-    </div>
 
-    <div class="card" id="launchbase">
-        <img src="https://image.flaticon.com/icons/svg/1992/1992617.svg" alt="logo do curso Launchbase">
+    {%for item in items%}
+    <div class="card" id="{{item.id}}">
+        <img src="{{item.image}}" alt="logo do curso {{item.id}}">
         <div class="card-description">
-            <h1>Ganhe dinheiro</h1>
-            <p>Empreste seus livros a um leitor e receba por isso.</p>
+            <h1>{{item.title}}</h1>
+            <p>{{item.description}}</p>
         </div>
         
     </div>
-
-    <div class="card" id="gostack">
-        <img src="https://image.flaticon.com/icons/svg/2919/2919670.svg" alt="logo do curso GoStack">
-        <div class="card-description">
-            <h1>Seja membro</h1>
-            <p>Tenha acesso a ferramentas exclusivas.</p>
-        </div>
-        
-    </div>
+    {%endfor%}
 
     <div class="modal-overlay">
         <div class="modal">
