@@ -15,7 +15,7 @@
 ---
 
 ## 📝 Sobre
-O projeto **RentBooks** é uma plataforma para empréstimos de livros. Este foi um projeto fictício elaborado para praticar a utilização de modais em páginas web. O projeto foi desenvolvido por durante meus estudos com o **Bootcamp Launchbase** da [Rocketseat](https://rocketseat.com.br).
+O projeto **RentBooks** é uma plataforma para empréstimos de livros. Este foi um projeto fictício elaborado para melhorar minhas habilidades no desenvolvimento de páginas web. O projeto foi desenvolvido por durante meus estudos com o **Bootcamp Launchbase** da [Rocketseat](https://rocketseat.com.br).
 
 ---
 

@@ -1,0 +1,17 @@
+{% extends "layout.njk" %}
+
+{%block content%}
+<div class="backButton"><a href="/content"><strong><</strong> Voltar</a></div>
+<div class="title">
+    <h1>{{item.title}}</h1>
+</div>
+
+<div class="option-content" id="{{item.id}}">
+    <img src="{{item.image}}" alt="logo do curso {{item.id}}">
+    <div class="card-description">
+        
+        <p>{{item.description}}</p>
+    </div>
+    
+</div>
+{%endblock%}

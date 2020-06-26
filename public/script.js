@@ -6,10 +6,8 @@ const maximizeButton = document.querySelector('.maximizeButton')
 
 for (let card of cards) {
     card.addEventListener('click', function(){
-        modal.classList.add('active')
-        
         const pageId = card.getAttribute('id')
-        document.querySelector('iframe').src = `https://rocketseat.com.br/${pageId}`
+        window.location.href = `/option?id=${pageId}`
     })
 }
 

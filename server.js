@@ -2,7 +2,7 @@ const express = require('express')
 const nunjucks = require('nunjucks')
 
 const server = express()
-const videos = require("./data")
+const options = require("./data")
 
 server.use(express.static('public'))
 
@@ -24,7 +24,23 @@ server.get("/", function(req, res){
 })
 
 server.get("/content", function(req, res){
-    return res.render("content", {items: videos})
+    return res.render("content", {items: options})
+})
+
+server.get("/option", function(req, res){
+    const id = req.query.id
+
+    const option = options.find(function(option){
+        if (option.id == id){
+            return true
+        }
+    })
+
+    if (!option) {
+        return res.send("option not found!")
+    }
+
+    return res.render("option", {item: option})
 })
 
 server.listen(5000, function(){
