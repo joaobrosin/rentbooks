@@ -11,20 +11,4 @@ for (let card of cards) {
     })
 }
 
-exitButton.addEventListener('click', function(){
-    modal.classList.remove('active')
-    modal2.classList.remove('maximize')
-    maximizeButton.classList.remove('maxon')
-    document.querySelector('iframe').src = ''
-})
-
-
-/* maximizar */
-
-maximizeButton.addEventListener('click', function(){
-    modal2.classList.add('maximize')
-    maximizeButton.classList.add('maxon')
-})
-
-
 

@@ -3,6 +3,7 @@ const nunjucks = require('nunjucks')
 
 const server = express()
 const options = require("./data")
+const dataBooks = require("./data-books")
 
 server.use(express.static('public'))
 
@@ -25,6 +26,10 @@ server.get("/", function(req, res){
 
 server.get("/content", function(req, res){
     return res.render("content", {items: options})
+})
+
+server.get("/books", function(req, res){
+    return res.render("books", {books : dataBooks})
 })
 
 server.get("/option", function(req, res){

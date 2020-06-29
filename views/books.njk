@@ -1,0 +1,44 @@
+{% extends "layout.njk" %}
+
+{%block content%}
+
+<h1 class="title">Livros</h1>
+<section class="books">
+
+    {% for book in books %}
+    <div class="book" id="{{book.id}}">
+        <img src="{{book.img}}" alt="imagem do livro extraordinário">
+        <div class="card-description">
+            <h1>{{book.title}}</h1>
+            <p>{{book.author}}</p>
+        </div> 
+    </div>
+    {% endfor %}
+    
+    
+</section>
+
+<!-- MODAL -->
+<div class="modal-background">
+    
+    <div class="modal">
+        <img class="modalImage" src="" alt="">
+        <div class="modal-text">
+            
+        </div>
+        <div class="options">
+                <p>Quero ler esse livro</p>
+                <a href="/content">Tenho esse livro e quero alugar</a>
+            </div>
+        <div class="close-button">
+            <p>Fechar</p>
+        </div>
+
+    </div>
+    
+</div>
+
+
+
+<script src="/books.js"></script>
+{%endblock%}
