@@ -35,4 +35,23 @@ module.exports = [
         title: "Harry Potter e a pedra filosofal",
         author: "J. K. Rowling"
     },
+    {
+        id: "https://img.travessa.com.br/livro/GR/57/578b732b-8220-4f41-ac04-fa71dbebcfa8.jpg",
+        img: "https://img.travessa.com.br/livro/GR/57/578b732b-8220-4f41-ac04-fa71dbebcfa8.jpg",
+        title: "Quem é você, Alaska?",
+        author: "John Green"
+    },
+    {
+        id: "https://m.media-amazon.com/images/I/511CQcoPdHL.jpg",
+        img: "https://m.media-amazon.com/images/I/511CQcoPdHL.jpg",
+        title: "O projeto Rosie",
+        author: "Graeme Simsion"
+    },
+    {
+        id: "https://images-na.ssl-images-amazon.com/images/I/51KR6ez4eFL._SX345_BO1,204,203,200_.jpg",
+        img: "https://images-na.ssl-images-amazon.com/images/I/51KR6ez4eFL._SX345_BO1,204,203,200_.jpg",
+        title: "O mundo assombrado pelos demônios",
+        author: "Carl Sagan"
+    }
+
 ]

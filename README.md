@@ -3,7 +3,7 @@
     <h1> RentBooks </h1>
 </div>
 
-<img src="https://ik.imagekit.io/eskqbzkmgf/layout_yZz2a3F1r.png">
+<img src="./public/assets/rentbooks-layout.gif">
 
 
 
