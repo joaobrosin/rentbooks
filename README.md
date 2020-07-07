@@ -7,41 +7,43 @@
 
 
 
-# Indice
-- [Sobre](#-sobre)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Como baixar o projeto](#-como-baixar-o-projeto)
+# Table of Contents
+- [About](#-about)
+- [Technologies](#-technologies)
+<!-- - [Installation](#-installation) -->
 
 ---
 
-## 📝 Sobre
-O projeto **RentBooks** é uma plataforma para empréstimos de livros. Este foi um projeto fictício elaborado para melhorar minhas habilidades no desenvolvimento de páginas web. O projeto foi desenvolvido por durante meus estudos com o **Bootcamp Launchbase** da [Rocketseat](https://rocketseat.com.br).
+## 📝 About
+The **RentBooks** project is a book lending plataform. This was a fictional project designed by me to improve my web development skills. The project was developed during my studies in the ***Launchbase Bootcamp*** by [Rocketseat](https://rocketseat.com.br).
 
 ---
 
-## 🚀 Tecnologias utilizadas
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+## 🚀 Technologies
+The project was developed with the following technologies: 
 
 - HTML
 - CSS
 - JavaScript
+- Node.js
+- Nunjucks
 
 ---
-
-## 👇 Como baixar o projeto
+<!-- 
+## 👇 Installation
 ```bash
-    # Clonar o repositório
+    # Clone the repository
     $ git clone https://github.com/joaobrosin/rentbooks
 
-    # Entrar no diretório
+    # Enter directory
     $ cd rentbooks
 
-    # Instalar as dependências
+    # Install the dependencies
     $ yarn install
 
-    # Iniciar o projeto
+    # Start the project
     $ yarn start
 ```
----
+--- -->
 
-Desenvolvido por ***João Brosin***.
+Made with 💙 by ***João Brosin***.
