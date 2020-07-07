@@ -15,7 +15,7 @@
 ---
 
 ## 📝 About
-The **RentBooks** project is a book lending plataform. This was a fictional project designed by me to improve my web development skills. The project was developed during my studies in the ***Launchbase Bootcamp*** by [Rocketseat](https://rocketseat.com.br).
+The **RentBooks** project is a book lending platform. This was a fictional project designed by me to improve my web development skills. The project was developed during my studies in the ***Launchbase Bootcamp*** by [Rocketseat](https://rocketseat.com.br).
 
 ---
 
