@@ -325,3 +325,22 @@ section.books {
 .options a:hover{
     color: var(--color-yellow);
 }
+
+
+
+/* ========= contact page =========== */
+
+a {
+    text-decoration: none;
+}
+
+.contact {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card {
+    width: 200px;
+}

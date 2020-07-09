@@ -32,6 +32,10 @@ server.get("/books", function(req, res){
     return res.render("books", {books : dataBooks})
 })
 
+server.get("/contact", function(req, res){
+    return res.render("contact")
+})
+
 server.get("/option", function(req, res){
     const id = req.query.id
 
