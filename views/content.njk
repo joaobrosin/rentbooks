@@ -1,26 +1,24 @@
 {% extends "layout.njk" %}
 
 {%block head%}
-<title>RentBooks - Informações</title>
+    <title>RentBooks - Informações</title>
 {%endblock%}
 
 {%block content%}
-<h1 class="title">Informações</h1>
-<section class="cards">
+    <h1 class="title">Informações</h1>
+    <section class="cards">
 
-    {%for item in items%}
-    <div class="card" id="{{item.id}}">
-        <img src="{{item.image}}" alt="logo do curso {{item.id}}">
-        <div class="card-description">
-            <h1>{{item.title}}</h1>
-            <p>{{item.description}}</p>
-        </div>
+        {%for item in items%}
+            <div class="card" id="{{item.id}}">
+                <img src="{{item.image}}" alt="logo do curso {{item.id}}">
+                <div class="card-description">
+                    <h1>{{item.title}}</h1>
+                    <p>{{item.description}}</p>
+                </div>
+                
+            </div>
+        {%endfor%}
         
-    </div>
-    {%endfor%}
-
-    
-</section>
-
-<script src="/scripts/script.js"></script>
+    </section>
+    <script src="/scripts/script.js"></script>
 {%endblock%}

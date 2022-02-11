@@ -1,11 +1,12 @@
 <div align="center">
-    <img width="100px" src="https://image.flaticon.com/icons/svg/945/945170.svg">
     <h1> RentBooks </h1>
 </div>
 
 <img src="./public/assets/rentbooks-layout.gif">
 
+<br>
 
+---
 
 # Table of Contents
 - [About](#-about)
@@ -29,7 +30,7 @@ The project was developed with the following technologies:
 - Nunjucks
 
 ---
-<!-- 
+
 ## 👇 Installation
 ```bash
     # Clone the repository
@@ -39,11 +40,11 @@ The project was developed with the following technologies:
     $ cd rentbooks
 
     # Install the dependencies
-    $ yarn install
+    $ npm i
 
     # Start the project
-    $ yarn start
+    $ npm start
 ```
---- -->
+---
 
 Made with 💙 by ***João Brosin***.

@@ -1,29 +1,26 @@
 {% extends "layout.njk" %}
 
 {%block head%}
-<title>RentBooks - Sua biblioteca virtual</title>
-<link rel="stylesheet" href="/styles/bg.css">
+    <title>RentBooks - Sua biblioteca virtual</title>
+    <link rel="stylesheet" href="/styles/bg.css">
 {%endblock%}
 
-
 {%block content%}
-<div class="text-box">
-    <h1>
-        {{facePage.title}}
-    </h1>
-    <p>
-        {{facePage.description}}
-    </p>
-    <div class="button">
-    <a href="/content">Saiba Mais</a>
+    <div class="text-box">
+        <h1>
+            {{facePage.title}}
+        </h1>
+        <p>
+            {{facePage.description}}
+        </p>
+        <div class="button">
+        <a href="/content">Saiba Mais</a>
+        </div>
     </div>
-</div>
 
-<footer>
+    <footer>
         <a href="#">Linkedin</a>
         <a href="#">Github</a>
         <a href="#">Instagram</a>
-</footer>
+    </footer>
 {%endblock%}
-
-

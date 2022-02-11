@@ -1,6 +1,5 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
-
 const server = express()
 const options = require("./data")
 const dataBooks = require("./data-books")
